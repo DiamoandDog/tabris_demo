@@ -1,15 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.tuer.tuerapp" version="0.1.0">
-  <name>Tuerapp</name>
+<widget id="qiaolijie.tabris.com" version="0.1.0">
+  <name>TabrisApp</name>
   <description>
     Example Tabris.js App
   </description>
-  <author email="designsor@gmail.com">
-    xiaojue
+  <author email="1213267233@qq.com">
+    qiaolijie
   </author>
-
-  <access origin="*" />
-  <preference name="EnableDeveloperConsole" value="false"/>
+  <preference name="EnableDeveloperConsole" value="$IS_DEBUG" />
   <preference name="UseStrictSSL" value="false"/>
   <plugin name="cordova-plugin-camera" spec="^2.3.0" />
 </widget>
